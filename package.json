@@ -1,0 +1,13 @@
+{
+  "name": "fien-coenen-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Fien Coenen",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["portfolio", "design", "cmd"],
+  "author": "Fien Coenen",
+  "license": "ISC"
+}
+

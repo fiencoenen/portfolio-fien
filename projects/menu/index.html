@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Fien Coenen</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body class="menu-page">
+  <nav class="subpage-nav">
+    <a href="/" class="return-link">(return to main page)</a>
+  </nav>
+
+  <!-- Permanent clickable home link at top centre -->
+  <a href="/" class="site-title-link" aria-label="Return to start screen">Fien Coenen</a>
+
+  <aside class="menu-filters" aria-label="Project filters">
+    <div class="filter-row">
+      <span class="filter-label">category</span>
+      <div class="filter-options">
+        <button type="button" class="filter-btn active" data-filter-group="category" data-filter-val="all">All,</button>
+        <button type="button" class="filter-btn" data-filter-group="category" data-filter-val="academic">Academic,</button>
+        <button type="button" class="filter-btn" data-filter-group="category" data-filter-val="personal">Personal</button>
+      </div>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">genre</span>
+      <div class="filter-options">
+        <button type="button" class="filter-btn active" data-filter-group="genre" data-filter-val="all">All,</button>
+        <button type="button" class="filter-btn" data-filter-group="genre" data-filter-val="art-design">Art &amp; Design,</button>
+        <button type="button" class="filter-btn" data-filter-group="genre" data-filter-val="craftwork">Craftwork,</button>
+        <button type="button" class="filter-btn" data-filter-group="genre" data-filter-val="other">Other</button>
+      </div>
+    </div>
+  </aside>
+
+  <main class="menu-projects-stack">
+    <!-- Project 1 -->
+    <article class="menu-project-card" data-category="academic" data-genre="art-design" data-project-id="1">
+      <a href="/projects/1/information" class="menu-project-link">
+        <div class="menu-image-wrap" style="width: 325px; max-width: 90vw;">
+          <img src="/images/Projects%20:%20Menu/menu1.png" alt="Nijntje in Nederland nu" class="menu-img">
+        </div>
+        <div class="menu-project-info" style="width: 325px; max-width: 90vw;">
+          <h2 class="menu-project-title">Nijntje in Nederland nu</h2>
+          <div class="menu-project-meta">Academic, Art &amp; Design</div>
+        </div>
+      </a>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="menu-project-card" data-category="personal" data-genre="craftwork" data-project-id="2">
+      <a href="/projects/2/information" class="menu-project-link">
+        <div class="menu-image-wrap" style="width: 490px; max-width: 90vw;">
+          <img src="/images/Projects%20:%20Menu/menu2.png" alt="Haakwerk" class="menu-img">
+        </div>
+        <div class="menu-project-info" style="width: 490px; max-width: 90vw;">
+          <h2 class="menu-project-title">Haakwerk</h2>
+          <div class="menu-project-meta">Personal, Craftwork</div>
+        </div>
+      </a>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="menu-project-card" data-category="personal" data-genre="craftwork" data-project-id="3">
+      <a href="/projects/3/information" class="menu-project-link">
+        <div class="menu-image-wrap" style="width: 345px; max-width: 90vw;">
+          <img src="/images/Projects%20:%20Menu/menu3.png" alt="Cinco" class="menu-img">
+        </div>
+        <div class="menu-project-info" style="width: 345px; max-width: 90vw;">
+          <h2 class="menu-project-title">Cinco</h2>
+          <div class="menu-project-meta">Personal, Craftwork</div>
+        </div>
+      </a>
+    </article>
+
+    <!-- Project 4 (Kòrsou) -->
+    <article class="menu-project-card" data-category="personal" data-genre="craftwork" data-project-id="5">
+      <a href="/projects/5/information" class="menu-project-link">
+        <div class="menu-image-wrap" style="width: 590px; max-width: 90vw;">
+          <img src="/images/Projects%20:%20Menu/menu4.png" alt="Kòrsou" class="menu-img">
+        </div>
+        <div class="menu-project-info" style="width: 590px; max-width: 90vw;">
+          <h2 class="menu-project-title">Kòrsou</h2>
+          <div class="menu-project-meta">Personal, Craftwork</div>
+        </div>
+      </a>
+    </article>
+
+    <!-- Project 5 (Manifest voor de Onzichtbare Student) -->
+    <article class="menu-project-card" data-category="academic" data-genre="art-design" data-project-id="4">
+      <a href="/projects/4/information" class="menu-project-link">
+        <div class="menu-image-wrap" style="width: 480px; max-width: 90vw;">
+          <img src="/images/Projects%20:%20Menu/menu5.png" alt="Manifest voor de Onzichtbare Student" class="menu-img">
+        </div>
+        <div class="menu-project-info" style="width: 480px; max-width: 90vw;">
+          <h2 class="menu-project-title">Manifest voor de Onzichtbare Student</h2>
+          <div class="menu-project-meta">Academic, Art &amp; Design</div>
+        </div>
+      </a>
+    </article>
+  </main>
+
+  <footer class="site-footer flow-bottom">
+    All rights reserved. Copyright © 2026.
+  </footer>
+
+  <script src="/scripts/filters.js"></script>
+</body>
+</html>
